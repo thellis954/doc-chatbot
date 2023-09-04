@@ -40,7 +40,7 @@ export const makeChain = (
 ) => {
   const model = new OpenAI({
     temperature: modelTemperature, // increase temepreature to get more creative answers
-    modelName: 'gpt-3.5-turbo', //change this to gpt-4 if you have access
+    modelName: 'gpt-4', //change this to gpt-4 if you have access
     openAIApiKey: openAIapiKey,
   });
 
